@@ -17,5 +17,17 @@ if userinput == "data types":
     if userinput == "y":
         print(Fore.GREEN + "Great!, if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine !")
     else:
-        print(Fore.RED + "Oh no! if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine I promise i will listen, the code might not be the best but I'm just starting out with projects.. !")
+        print(Fore.RED + "Oh no! I have made an extra script with comments and more explaining if you didn't understand, refer to variables-full.py\n if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine I promise i will listen, the code might not be the best but I'm just starting out with projects.")
 
+if userinput == "operators":
+    userinput = input("operators with int, str list or all in one? \n")
+    print("\n")
+    if userinput == "int":
+        print("So if you know anything about math you probably remember the basic ops, I'm talking", Fore.RED + "multiplication" + Style.RESET_ALL ,Fore.CYAN + "division" + Style.RESET_ALL,Fore.GREEN + "subtracting" + Style.RESET_ALL,Fore.MAGENTA + "adding" + Style.RESET_ALL, "basic stuff,\nSo, let's start with", Fore.RED + "multiplication" + Style.RESET_ALL ,"How do you multiply an integer? Well it's so simple assuming a and b are integers it will go like:", Fore.RED + "print(a * b)" + Style.RESET_ALL,"and that will print the result.\nNow how about",Fore.CYAN + "division" + Style.RESET_ALL,"well it will go as simple as:",Fore.CYAN + "print(a / b)" + Style.RESET_ALL,"\nNext is",Fore.GREEN + "subtracting" + Style.RESET_ALL,"and you know the drill:",Fore.GREEN + "print(a - b)" + Style.RESET_ALL,"\n Finally, it's",Fore.MAGENTA + "adding" + Style.RESET_ALL,"and it goes:",Fore.MAGENTA + "print(a + b)" + Style.RESET_ALL,)
+        useinput("\n \n very very simple stuff, was this helpful? (y/n)")
+        if userinput == "y":
+        print(Fore.GREEN + "Great!, if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine !")
+        else:
+        print(Fore.RED + "Oh no! I have made an extra script with comments and more explaining if you didn't understand, refer to variables-full.py\n if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine I promise i will listen, the code might not be the best but I'm just starting out with projects.")
+    if userinput == "str":
+        print ("soon")
