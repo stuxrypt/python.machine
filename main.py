@@ -19,6 +19,7 @@ if userinput == "data types":
     else:
         print(Fore.RED + "Oh no! I have made an extra script with comments and more explaining if you didn't understand, refer to variables-full.py\nIf you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine I promise i will listen, the code might not be the best but I'm just starting out with projects.")
 
+
 if userinput == "operators":
     userinput = input("operators with int, str, list, float or all in one? \n")
     print("\n")
@@ -74,3 +75,15 @@ if userinput == "operators":
             print(Fore.GREEN + "Great!, if you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine !")
         else:
             print(Fore.RED + "Oh no! I have made an extra script with comments and more explaining if you didn't understand, refer to operators.py\nIf you would like to submit a feedback open an issue in github.com/stuxrypt/python.machine I promise i will listen, the code might not be the best but I'm just starting out with projects.")
+
+if userinput == "conditions":
+    print("")
+
+if userinput == "functions":
+    print ("soon")
+
+if userinput == "loops":
+    print ("soon")
+
+if userinput == "while loops":
+    print ("soon")
